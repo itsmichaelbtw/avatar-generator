@@ -20,14 +20,14 @@ Either use the source code provided within your own project, or use the free url
 
 ### Parameters
 
-Query | Description | Default
------ | ----------- | -------
-name | Name to display on the avatar | Avatar
-length | How many letters to include in the avatar | 3
-color | Color of the text (any hex colour without the #) | #fff
-fontSize | Font size of the text | 90
-background | Background color of the avatar (any hex colour without the #) | undefined (randomly generated)
-bold | Whether the text is bold or not | false
-uppercase | Whether the text is capatilized | false
-height | Height of the svg | 260
-width | Width of the svg | 260
+Query | Value | Description | Default
+----- | ----- |  ----------- | -------
+name | String |  Name to display on the avatar | Avatar
+length | String |  How many letters to include in the avatar | 3
+color | String |  Color of the text (any hex colour without the #) | #fff
+fontSize | Number | Font size of the text | 90
+background | String | Background color of the avatar (any hex colour without the #) | undefined (randomly generated)
+bold | Boolean |  Whether the text is bold or not | false
+uppercase | Boolean |  Whether the text is capatilized | false
+height | Number |  Height of the svg | 260
+width | Number |  Width of the svg | 260
