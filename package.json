@@ -1,0 +1,22 @@
+{
+  "name": "avatar-generator",
+  "version": "1.0.0",
+  "description": "generate svg or png avatars",
+  "main": "index.js",
+  "scripts": {
+    "start": "node express-api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmichaelbtw/avatar-generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmichaelbtw/avatar-generator/issues"
+  },
+  "homepage": "https://github.com/itsmichaelbtw/avatar-generator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
