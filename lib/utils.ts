@@ -1,3 +1,7 @@
+import * as dotenv from "dotenv";
+
+dotenv.config({ path: ".env" });
+
 export interface AvatarProperties {
     backgroundColor: string;
     color: string;
@@ -174,4 +178,4 @@ export function normalizeQuery(query: any): AvatarProperties {
     };
 }
 
-export const port: number = 3000;
+export const port: string | number = process.env.PORT || 3000;
