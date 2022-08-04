@@ -1,10 +1,10 @@
 # Avatar Generator
 
-Using a simple `GET` request, an avatar in an SVG format will be generated based on criteria you provid. Simply provide a name, username or email address of who you want to display on the avatar
+Using a simple `GET` request, an avatar in an SVG format will be generated based on criteria you provide. Simply provide a name, username or email address of who you want to display on the avatar.
 
 ### How to use
 
-Either use the source code provided within your own project, or use the free url 
+Either use the source code provided within your own project, or use the free url.
 
 [https://avatar.reflyui.cc/avatar.svg](https://avatar.reflyui.cc/avatar.svg)
     
@@ -20,14 +20,15 @@ Either use the source code provided within your own project, or use the free url
 
 ### Parameters
 
-Query | Value | Description | Default
+Parameter | Value | Description | Default
 ----- | ----- |  ----------- | -------
-name | String |  Name to display on the avatar | Avatar
-length | String |  How many letters to include in the avatar | 3
-color | String |  Color of the text (any hex colour without the #) | #fff
-fontSize | Number | Font size of the text | 90
-background | String | Background color of the avatar (any hex colour without the #) | undefined (randomly generated)
-bold | Boolean |  Whether the text is bold or not | false
-uppercase | Boolean |  Whether the text is capatilized | false
-height | Number |  Height of the svg | 260
-width | Number |  Width of the svg | 260
+background | String | Background color | random
+color | String | Text color | #fff
+fontSize | Number | Font size | 90
+length | Number | Length of the name | 3
+name | String | Name to display | Avatar
+initials | String | Initials to display | null (will override name parameter)
+bold | Boolean | If text should be bolded | false
+uppercase | Boolean | If text should be uppercase | false (this will capitalize the first letter of the name)
+height | Number | Height of the avatar | 260
+width | Number | Width of the avatar | 260
