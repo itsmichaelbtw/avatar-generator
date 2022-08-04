@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "ES2022",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "strict": true,
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["*.ts"]
+}
